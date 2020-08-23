@@ -1,0 +1,59 @@
+/* ========================= */
+
+//      Global Styles
+@import '../../../styles.scss';
+
+/* ========================= */
+
+.navbar {
+    background-color: $background-2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    .tiendas {
+        color: $text;
+    }
+    .logo {
+        margin-left: 90px;
+        font-size: 1.6em;
+        font-weight: 900;
+    }
+    .links {
+        display: flex;
+        list-style: none;
+        .link {
+            padding: 0 15px;
+            & a {
+                text-decoration: none;
+                color: $text;
+                &:hover {
+                    border-bottom: 2px solid $text;
+                }
+            }
+        }
+    }
+}
+
+.options {
+    background-color: $second;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    .options_list {
+        display: flex;
+        list-style: none;
+        .item {
+            padding: 25px 15px;
+            margin: 0 30px;
+            cursor: pointer;
+            &:hover {
+                background-color: $text;
+                color: #fff;
+            }
+        }
+    }
+}

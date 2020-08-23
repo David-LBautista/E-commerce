@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+/* font-family: 'Inconsolata', monospace; */
+/* ===================== */
+/*
+//  Font-sizes
+font-weight: 200;
+font-weight: 400;
+font-weight: 600;
+font-weight: 700;
+font-weight: 900;
+*/
+/* ===================== */
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace, sans-serif;
+}
+
+/* ==================== */
+.container_small {
+  padding: 10px 15px;
+}
+
+.container_mid {
+  padding: 20px 30px;
+}
+
+.container_lrg {
+  padding: 30px 45px;
+}
+
+/* ==================== */
+.section_categorias {
+  background-color: #D2E0BF;
+  width: 100%;
+  height: 80vh;
+}
+.section_categorias .row {
+  display: flex;
+}
+.section_categorias .row .col {
+  width: 100%;
+  height: 470px;
+  background-color: #fff;
+  border: 2px solid #000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.section_categorias .row .col .info {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+}
+.section_categorias .row .col .info button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #EDABC9;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.section_categorias .row .col img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}

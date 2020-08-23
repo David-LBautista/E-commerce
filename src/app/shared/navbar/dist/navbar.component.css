@@ -1,0 +1,97 @@
+/* ========================= */
+/* You can add global styles to this file, and also import other style files */
+/* font-family: 'Inconsolata', monospace; */
+/* ===================== */
+/*
+//  Font-sizes
+font-weight: 200;
+font-weight: 400;
+font-weight: 600;
+font-weight: 700;
+font-weight: 900;
+*/
+/* ===================== */
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace, sans-serif;
+}
+
+/* ==================== */
+.container_small {
+  padding: 10px 15px;
+}
+
+.container_mid {
+  padding: 20px 30px;
+}
+
+.container_lrg {
+  padding: 30px 45px;
+}
+
+/* ==================== */
+/* ========================= */
+.navbar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.navbar .tiendas {
+  color: #505A5B;
+}
+.navbar .logo {
+  margin-left: 90px;
+  font-size: 1.6em;
+  font-weight: 900;
+}
+.navbar .links {
+  display: flex;
+  list-style: none;
+}
+.navbar .links .link {
+  padding: 0 15px;
+}
+.navbar .links .link a {
+  text-decoration: none;
+  color: #505A5B;
+}
+.navbar .links .link a:hover {
+  border-bottom: 2px solid #505A5B;
+}
+
+.options {
+  background-color: #EDABC9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.options .options_list {
+  display: flex;
+  list-style: none;
+}
+.options .options_list .item {
+  padding: 25px 15px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+.options .options_list .item:hover {
+  background-color: #505A5B;
+  color: #fff;
+}
