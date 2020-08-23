@@ -6,7 +6,7 @@
 /* ========================= */
 
 .navbar {
-    background-color: $background-2;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,6 +17,7 @@
         color: $text;
     }
     .logo {
+        color: $title;
         margin-left: 90px;
         font-size: 1.6em;
         font-weight: 900;

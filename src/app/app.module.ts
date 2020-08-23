@@ -9,13 +9,15 @@ import { PrimengModule } from './shared/primeng/primeng.module';
 // Components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { PrincipalComponent } from './pages/principal/principal.component'
+import { PrincipalComponent } from './pages/principal/principal.component';
+import { FooterComponent } from './shared/footer/footer.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

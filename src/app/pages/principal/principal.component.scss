@@ -5,36 +5,122 @@
     height: 80vh;
     .row {
         display: flex;
-        .col {
+        height: 100%;
+        min-height: 100%;
+        width: 100%;
+        .col_1 {
             width: 100%;
-            height: 470px;
-            background-color: $background-2;
+            background: url(../../../assets/img/hombre.jpg);
+            background-size: cover;
+            background-position: top center;
             border: 2px solid #000;
             position: relative;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end;
             justify-items: center;
+            opacity: .8;
+            &:hover {
+                opacity: 1;
+            }
             .info {
+                width: 50%;
+                text-align: center;
+                bottom: 40px;
+                color: #fff;
+                font-weight: 900;
+                position: absolute;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 2em;
+                opacity: 1;
+                z-index: 10;
+                & button {
+                    width: 100%;
+                    padding: 10px 0;
+                    background-color: $title;
+                    border: none;
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .col_2 {
+            width: 100%;
+            background: url(../../../assets/img/mujer.jpg);
+            background-size: cover;
+            background-position: top center;
+            border: 2px solid #000;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+            justify-items: center;
+            opacity: .8;
+            &:hover {
+                opacity: 1;
+            }
+            .info {
+                width: 50%;
+                text-align: center;
+                bottom: 40px;
                 position: absolute;
                 text-transform: uppercase;
                 color: #fff;
                 font-weight: 700;
                 font-size: 2em;
+                opacity: 1;
+                z-index: 10;
                 & button {
                     width: 100%;
                     padding: 10px 0;
-                    background-color: $second;
+                    background-color: $title;
                     border: none;
                     color: #fff;
                     border-radius: 5px;
+                    cursor: pointer;
                 }
             }
-            & img {
-                width: 100%;
-                height: 100%;
-                max-width: 100%;
+        }
+        .col_3 {
+            width: 100%;
+            background: url(../../../assets/img/niños.jpg);
+            background-size: cover;
+            background-position: top center;
+            border: 2px solid #000;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+            justify-items: center;
+            opacity: .8;
+            &:hover {
+                opacity: 1;
+            }
+            .info {
+                width: 50%;
+                text-align: center;
+                bottom: 40px;
+                position: absolute;
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: 700;
+                font-size: 2em;
+                opacity: 1;
+                z-index: 10;
+                & button {
+                    width: 100%;
+                    padding: 10px 0;
+                    background-color: $title;
+                    border: none;
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
             }
         }
     }

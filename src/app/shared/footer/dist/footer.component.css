@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* font-family: 'Inconsolata', monospace; */
+/* ===================== */
+/*
+//  Font-sizes
+font-weight: 200;
+font-weight: 400;
+font-weight: 600;
+font-weight: 700;
+font-weight: 900;
+*/
+/* ===================== */
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace, sans-serif;
+}
+
+/* ==================== */
+.container_small {
+  padding: 10px 15px;
+}
+
+.container_mid {
+  padding: 20px 30px;
+}
+
+.container_lrg {
+  padding: 30px 45px;
+}
+
+/* ==================== */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #FF4A1C;
+  padding: 0 40px;
+}
+.footer .row {
+  display: flex;
+  padding: 40px 0;
+}
+.footer .row .col {
+  margin: 0 15px;
+}
+.footer .row .col p {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer .row .col ul li {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.footer .row .col .payments i {
+  color: #fff;
+  margin: 0 5px;
+}
+.footer .form {
+  width: 300px;
+  padding: 40px 0;
+}
+.footer .form:host .p-dropdown {
+  width: 14rem;
+}

@@ -53,9 +53,10 @@ body {
   align-content: center;
 }
 .navbar .tiendas {
-  color: #505A5B;
+  color: #00171F;
 }
 .navbar .logo {
+  color: #FF4A1C;
   margin-left: 90px;
   font-size: 1.6em;
   font-weight: 900;
@@ -69,14 +70,14 @@ body {
 }
 .navbar .links .link a {
   text-decoration: none;
-  color: #505A5B;
+  color: #00171F;
 }
 .navbar .links .link a:hover {
-  border-bottom: 2px solid #505A5B;
+  border-bottom: 2px solid #00171F;
 }
 
 .options {
-  background-color: #EDABC9;
+  background-color: #007EA7;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -92,6 +93,6 @@ body {
   cursor: pointer;
 }
 .options .options_list .item:hover {
-  background-color: #505A5B;
+  background-color: #00171F;
   color: #fff;
 }

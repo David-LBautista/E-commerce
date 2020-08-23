@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* You can add global styles to this file, and also import other style files */
 /* font-family: 'Inconsolata', monospace; */
 /* ===================== */
@@ -42,42 +43,128 @@ body {
 
 /* ==================== */
 .section_categorias {
-  background-color: #D2E0BF;
+  background-color: #FFFFFF;
   width: 100%;
   height: 80vh;
 }
 .section_categorias .row {
   display: flex;
-}
-.section_categorias .row .col {
+  height: 100%;
+  min-height: 100%;
   width: 100%;
-  height: 470px;
-  background-color: #fff;
+}
+.section_categorias .row .col_1 {
+  width: 100%;
+  background: url(../../../assets/img/hombre.jpg);
+  background-size: cover;
+  background-position: top center;
   border: 2px solid #000;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   justify-items: center;
+  opacity: 0.8;
 }
-.section_categorias .row .col .info {
+.section_categorias .row .col_1:hover {
+  opacity: 1;
+}
+.section_categorias .row .col_1 .info {
+  width: 50%;
+  text-align: center;
+  bottom: 40px;
+  color: #fff;
+  font-weight: 900;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  opacity: 1;
+  z-index: 10;
+}
+.section_categorias .row .col_1 .info button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #FF4A1C;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section_categorias .row .col_2 {
+  width: 100%;
+  background: url(../../../assets/img/mujer.jpg);
+  background-size: cover;
+  background-position: top center;
+  border: 2px solid #000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  justify-items: center;
+  opacity: 0.8;
+}
+.section_categorias .row .col_2:hover {
+  opacity: 1;
+}
+.section_categorias .row .col_2 .info {
+  width: 50%;
+  text-align: center;
+  bottom: 40px;
   position: absolute;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
   font-size: 2em;
+  opacity: 1;
+  z-index: 10;
 }
-.section_categorias .row .col .info button {
+.section_categorias .row .col_2 .info button {
   width: 100%;
   padding: 10px 0;
-  background-color: #EDABC9;
+  background-color: #FF4A1C;
   border: none;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
-.section_categorias .row .col img {
+.section_categorias .row .col_3 {
   width: 100%;
-  height: 100%;
-  max-width: 100%;
+  background: url(../../../assets/img/niños.jpg);
+  background-size: cover;
+  background-position: top center;
+  border: 2px solid #000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  justify-items: center;
+  opacity: 0.8;
+}
+.section_categorias .row .col_3:hover {
+  opacity: 1;
+}
+.section_categorias .row .col_3 .info {
+  width: 50%;
+  text-align: center;
+  bottom: 40px;
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  opacity: 1;
+  z-index: 10;
+}
+.section_categorias .row .col_3 .info button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #FF4A1C;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
 }

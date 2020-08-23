@@ -6,32 +6,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 exports.__esModule = true;
-exports.PrimengModule = void 0;
+exports.AppRoutingModule = void 0;
 var core_1 = require("@angular/core");
-var common_1 = require("@angular/common");
-//Buttons
-var button_1 = require("primeng/button");
-//Form components
-var dropdown_1 = require("primeng/dropdown");
-var primengComponents = [
-    button_1.ButtonModule,
-    dropdown_1.DropdownModule
+var router_1 = require("@angular/router");
+var principal_component_1 = require("./pages/principal/principal.component");
+var routes = [
+    { path: 'home', component: principal_component_1.PrincipalComponent, pathMatch: 'full' }
 ];
-var PrimengModule = /** @class */ (function () {
-    function PrimengModule() {
+var AppRoutingModule = /** @class */ (function () {
+    function AppRoutingModule() {
     }
-    PrimengModule = __decorate([
+    AppRoutingModule = __decorate([
         core_1.NgModule({
-            declarations: [],
-            imports: [
-                common_1.CommonModule,
-                primengComponents
-            ],
-            exports: [
-                primengComponents
-            ]
+            imports: [router_1.RouterModule.forRoot(routes)],
+            exports: [router_1.RouterModule]
         })
-    ], PrimengModule);
-    return PrimengModule;
+    ], AppRoutingModule);
+    return AppRoutingModule;
 }());
-exports.PrimengModule = PrimengModule;
+exports.AppRoutingModule = AppRoutingModule;

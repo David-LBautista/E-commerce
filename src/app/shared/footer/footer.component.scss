@@ -1,0 +1,39 @@
+@import '../../../styles.scss';
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $title;
+    padding: 0 40px;
+    .row {
+        display: flex;
+        padding: 40px 0;
+        .col {
+            margin: 0 15px;
+            & p {
+                font-size: 1.2em;
+                color: #fff;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+            & ul li {
+                list-style: none;
+                color: #fff;
+                margin-bottom: 5px;
+            }
+            .payments {
+                & i {
+                    color: #fff;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+    .form {
+        width: 300px;
+        padding: 40px 0;
+        &:host .p-dropdown {
+            width: 14rem;
+        }
+    }
+}
