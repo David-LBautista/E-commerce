@@ -77,7 +77,7 @@ body {
 }
 
 .options {
-  background-color: #C32F27;
+  background-color: #0E1428;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -89,11 +89,24 @@ body {
 }
 .options .options_list .item {
   color: #fff;
+  font-size: 1.2em;
   padding: 25px 15px;
   margin: 0 30px;
   cursor: pointer;
 }
-.options .options_list .item:hover {
-  background-color: #0E1428;
+.options .options_list .item:last-child {
+  color: #C32F27;
+}
+
+.descuento {
+  background-color: #C32F27;
+  padding: 15px 0;
+}
+.descuento p {
+  text-align: center;
   color: #fff;
+  font-weight: 700;
+}
+.descuento p span {
+  font-size: 1.2em;
 }

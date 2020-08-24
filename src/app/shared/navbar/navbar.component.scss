@@ -39,7 +39,7 @@
 }
 
 .options {
-    background-color: $text;
+    background-color: $title;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -49,13 +49,26 @@
         list-style: none;
         .item {
             color: #fff;
+            font-size: 1.2em;
             padding: 25px 15px;
             margin: 0 30px;
             cursor: pointer;
-            &:hover {
-                background-color: $title;
-                color: #fff;
+            &:last-child {
+                color: $text;
             }
+        }
+    }
+}
+
+.descuento {
+    background-color: $text;
+    padding: 15px 0;
+    & p {
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        & span {
+            font-size: 1.2em;
         }
     }
 }
