@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #FF4A1C;
+  background-color: #0E1428;
   padding: 0 40px;
 }
 .footer .row {
@@ -71,9 +71,22 @@ body {
   margin: 0 5px;
 }
 .footer .form {
-  width: 300px;
   padding: 40px 0;
 }
-.footer .form:host .p-dropdown {
-  width: 14rem;
+.footer .form input {
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+.footer .form button {
+  background-color: #C32F27;
+  color: #fff;
+  width: 100%;
+  margin-top: 15px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 5px;
 }

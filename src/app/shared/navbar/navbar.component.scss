@@ -6,7 +6,7 @@
 /* ========================= */
 
 .navbar {
-    background-color: #fff;
+    background-color: $primary;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     align-items: center;
     align-content: center;
     .tiendas {
-        color: $text;
+        color: $title;
     }
     .logo {
         color: $title;
@@ -29,9 +29,9 @@
             padding: 0 15px;
             & a {
                 text-decoration: none;
-                color: $text;
+                color: $title;
                 &:hover {
-                    border-bottom: 2px solid $text;
+                    border-bottom: 2px solid $title;
                 }
             }
         }
@@ -39,7 +39,7 @@
 }
 
 .options {
-    background-color: $second;
+    background-color: $text;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,11 +48,12 @@
         display: flex;
         list-style: none;
         .item {
+            color: #fff;
             padding: 25px 15px;
             margin: 0 30px;
             cursor: pointer;
             &:hover {
-                background-color: $text;
+                background-color: $title;
                 color: #fff;
             }
         }
